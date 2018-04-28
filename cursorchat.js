@@ -10,6 +10,6 @@ jQuery.fn.cursorchat = function(p, e) {
         for (var i = 0; i < data.length; i++) {
             $(e).append($("<div>").addClass("faq").append($("<p>").html(data[i].content)).append($("<small>").text(" by " + data[i].authorNickname)).append($("<hr>")));
         }
-    };
+    }
     return this;
 };

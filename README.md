@@ -1,0 +1,2 @@
+# cursorjsplace
+javascript
